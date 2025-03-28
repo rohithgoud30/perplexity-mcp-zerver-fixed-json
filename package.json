@@ -1,0 +1,32 @@
+{
+  "name": "perplexity-mcp-zerver-fixed-json",
+  "version": "1.0.0",
+  "description": "Fixed version of perplexity-mcp-zerver with JSON communication error fixes",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc -w"
+  },
+  "keywords": [
+    "mcp",
+    "perplexity",
+    "puppeteer",
+    "json-fixes"
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.2.0",
+    "better-sqlite3": "^8.5.1",
+    "puppeteer": "^21.1.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.4",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
